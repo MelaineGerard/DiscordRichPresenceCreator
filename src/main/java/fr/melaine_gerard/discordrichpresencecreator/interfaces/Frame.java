@@ -28,7 +28,7 @@ public class Frame extends JFrame {
             e.printStackTrace();
         }
         Swinger.setSystemLookNFeel();
-        Swinger.setResourcePath("/fr/melaine_gerard/discordrichpresencecreator/resources/");
+        Swinger.setResourcePath("/");
         instance = new Frame(yamlFile);
     }
 
